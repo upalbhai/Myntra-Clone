@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar ul li{
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    border-bottom: 3px solid #ffffff;
+    transition: 0.3s;
+    opacity: 0.85;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+sup{
+    color: red;
+}
+.nav-bar ul li:hover{
+    border-bottom:3px solid #f54e77;
+    background-color: #eee1e4;
+
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    height: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, 0.247)
+}
+img{
+    width: 50px;
+    height: 45px;
+    padding: 1.5rem 1.5rem;
+    padding-left: 4rem;
+}
+.icons{
+    text-align: center;
+    margin-left: 3rem;
+    transition: 0.3s;
+}
+.search-bar input{
+    border: 0;
+    height: 2.5rem;
+    padding: 0;
+    font-size: 1rem;
+    
+    background-color: #f5f5f6;
+}
+.search-bar input:focus{
+    outline: 0;
+}
+.search-bar i{
+    margin-left: 1rem;
+}
+.search-bar{
+    background-color: #f5f5f6;
+    width: 25%;
+    padding: 0.25rem;
+
+}
+.side-icons{
+    display: flex;
+    gap:auto;
+}
+.icons:hover{
+    transform: scale(1.25);
+}
+.icons p{
+    margin-top: 0.5rem;
+}
+.banner img{
+    width: auto;
+    height: 24rem;
+    margin:  4rem 0 0 0;
+    padding: 0;
+}
+.offers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.offers div img{
+    height: 20rem;
+    width: auto;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.offers div img:hover{
+    transform: scale(1.2);
+}
+h2{
+    margin: 5rem 0 0 5rem;
+    color: rgba(0, 0, 0, 0.758);
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFBFC;
+    margin: 2rem 0 0 0;
+    padding: 2rem;
+    margin: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.653);
+}
+footer div{
+    justify-content: left;
+}
+footer div ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+h3{
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.foot{
+    text-align: right;
+    margin: 1rem 0.5rem;
+    color: rgba(0, 0, 0, 0.832);
+}
